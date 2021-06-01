@@ -98,7 +98,7 @@ require([
       const bkExpand = new Expand({
         view: view,
         content: bookmarks,
-        expanded: true
+        expanded: false
       });
 
     // Define our widgets for the view
