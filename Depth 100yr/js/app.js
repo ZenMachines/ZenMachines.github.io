@@ -4,8 +4,6 @@ require([
     ], function (
     WebMap, FeatureLayer, TileLayer, MapView, Graphic, Bookmarks, Locate, Home, LayerList, Search, 
     Slider, BasemapToggle, Basemap, Legend, Expand, watchUtils, Dialog, esriConfig) {
-     
-        esriConfig.apiKey = "AAPK449f441030614d409d4c6d0a9526941dQxW6VJfOo534K3IftI5O8Hi0hPNpg8xB9-pcjMymX5UvoB3Tjmx5I04dEgiRcb-X";
 
     const template = {
         title: "Hazard Category {HazardCategory}",
