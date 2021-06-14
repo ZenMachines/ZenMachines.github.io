@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>Hokitika Flood Hazard Categories 50yr - Scenario Slider</title>
+
+  <!-- load css -->
+  <!-- <link rel="stylesheet" href="https://js.arcgis.com/4.14/esri/css/main.css">-->
+  <link rel="stylesheet" href="https://js.arcgis.com/4.19/esri/themes/dark/main.css" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- load js -->
+  <script src="https://js.arcgis.com/4.14/"></script>
+  <script src="js/app.js"></script>
+</head>
+
+<body>
+  <div id="mapViewDiv"></div>
+  <img id='loading' src="https://i.stack.imgur.com/qq8AE.gif"/>
+  <div id="infoDiv" class="esri-widget">
+    <div id="title">Hokitika Flood Hazard - Hazard Categories 1 in 50 year event</div>
+    <div id="description">
+      This app allows you to explore different flood hazard scenarios of the Hokitika river for a 1 in 50 year event.<br/><br/>
+      <strong>Note</strong>: the slider widget on the left hand side of the screen allows you to control which scenario is currently displayed.<br/><br/>
+      <div id="titlelegend">Hazard Categories Legend</div>
+      <span class="hazardDesc">
+      <span class="square-h1"></span><strong>H1</strong> - Generally safe for vehicles, people and buildings.<br/>
+      <span class="square-h2"></span><strong>H2</strong> - Unsafe for small vehicles.<br/>
+      <span class="square-h3"></span><strong>H3</strong> - Unsafe for vehicles, children and the elderly.<br/>
+      <span class="square-h4"></span><strong>H4</strong> - Unsafe for vehicles and people. <br/>
+      <span class="square-h5"></span><strong>H5</strong> - Unsafe for vehicles and people. All buildings vulnerable to structural damage. Some less robust buildings subject to failure.<br/>
+      <span class="square-h6"></span><strong>H6</strong> - Unsafe for vehicles and people. All building types considered vulnerable to failure.<br/>
+      </span>
+    </div>
+  </div>
+  <div id="sliderContainer">
+    <div id="sliderDiv"></div>
+  </div>
+</body>
+
+</html>
+
+<DIV align="right"></DIV>
