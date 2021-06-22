@@ -157,7 +157,7 @@ require([
     const legendExpand = new Expand({
         view: view,
         content: document.getElementById("infoDiv"),
-        expanded: true,
+        expanded: false,
         expandIconClass: "esri-icon-notice-round"
     });
 
