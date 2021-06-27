@@ -78,10 +78,10 @@ require([
             latestWkid: 102100,
             wkid: 3857
         },
-        xmin: 19097643.2809836, // Default to Westport area
-        ymin: -5126634.63329623,
-        xmax: 19108787.5532721,
-        ymax: -5120147.03698771
+        xmin: 19100399.9114552, // Default to Westport area
+        ymin: -5125472.08672949,
+        xmax: 19104341.9993394,
+        ymax: -5121320.02509203
        }
     });
 
